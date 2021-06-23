@@ -1,0 +1,129 @@
+body {
+	margin: 0;
+	box-sizing: border-box;
+}	
+
+.navigation {
+	height: 50px;
+	width: 100%;
+	background-color: #000000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+}
+
+.navigation div {
+	width: 100px;
+	text-align: center;
+	color: #bec6d5;
+}	
+
+.navigation div a {
+	text-decoration: none;
+	color: #bec6d5;
+}
+
+.hero {
+	background-color: #2d2d2d;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.hero div img{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.hero div h3, .hero div p {
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 0;
+	color: #bec6d5;
+}
+
+section {
+	padding: 20px;
+}
+
+section div h2, section div p {
+    text-align: center;
+}
+
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.skill {
+	width: 100px;
+	margin: 15px 10px;
+	padding: 16px;
+	text-align: center;
+	background-color: #f1f1f1;
+	box-shadow: 0 4px 8px 0 rgba(0.2, 0.4, 0.6, 0.8);
+}
+
+
+
+.projects {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.project {
+	flex: 50%;
+	max-width: 100%;
+	text-align: center;
+}
+
+.projects .project {
+	margin-bottom: 20px;
+}
+
+.project h4, .project p {
+	margin: 0;
+
+}
+
+footer {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	background-color: #f9f9f9;
+	
+}
+.form form {
+	width: 100%
+}
+
+.form {
+	width: calc(100%-400px);
+}
+
+
+form .forminput {
+	width: 100%;
+}
+
+form .forminput input, form .forminput textarea{
+	position: relative;
+	border: 2px solid #2d2d2d;
+	color: #111;
+	background: transparent;
+	width: 100%;
+	padding: 10px;
+	margin: 10px 0;
+	resize: none:;
+}
+
+form .forminput textarea {
+	height: 120px;
+}
